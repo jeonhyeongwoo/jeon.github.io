@@ -7,12 +7,12 @@ relative_permalinks: false
 encoding: utf-8
 
 # Setup
-title:               My Website
+title:               JeonHyeongwooBlog
 #tagline:             'foo's website
 description:         Foo's blog...
-url: https://lanyon-plus.sbamin.com
+url: https://jeon.github.io
 baseurl: ""
-urlimg: https://lanyon-plus.sbamin.com/images/
+urlimg: https://jeon.github.io/images/
 ## If you do not have custom domain, comment top three lines, uncomment three lines below and replace dyndna with your github userid and lanyon-plus with your project name. Also, rename CNAME file to CNAME.sample
 #url: https://dyndna.github.io/lanyon-plus
 #baseurl: "/lanyon-plus"
@@ -42,7 +42,7 @@ gems:
   - jekyll-mentions
 
 jekyll-mentions:
-  base_url: https://twitter.com
+  base_url: ""
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "rakefile", "README.md", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "LICENSE", "vendor", "assets", "_plugins", "public/dormant"]
@@ -62,9 +62,9 @@ owner:
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        abcd
+  twitter:        
   facebook:       
-  github:         xyz123abc
+  github:         jeonhyeongwoo
   stackexchange:  
   linkedin:       https://www.linkedin.com/in/foo
   instagram:      
